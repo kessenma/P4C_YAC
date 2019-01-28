@@ -1,6 +1,15 @@
+.current{
+	color:#00000
+	background: blue;
+	text-transform: uppercase;
+}
+.skip:focus{
+	position:relative;
+	left: -2000px;
+}
+
 body{
-	background: white;
-	color: black;
+	background-color: white;
 	size: 150%;
 	margin: 5%;
 }
@@ -12,13 +21,56 @@ p{
 	font-family: Arial;
 }
 
-.current{
-	color:#00000
-	background: blue;
-	text-transform: uppercase;
+nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0;
+	background-color: #e86d1;
+	border-bottom: 1px solid #ccc;
+}
+ul {
+	list-style: none;
+	width: 800px;
+	margin: 0 auto;
+	padding: 0;
 }
 
-.skip:focus{
-	position:relative;
-	left: -2000px;
+ul li {
+	float: left;
+	line-height: 30px;
+  }
+
+ul li a {
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: arial;
+	color: #1e1e1e; 
+	padding: 8px 20px;
 }
+
+ul li a:hover {
+	background-color:orange;
+	text-decoration-color: white;
+}
+
+.current {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
